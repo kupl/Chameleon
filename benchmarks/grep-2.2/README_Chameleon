@@ -1,0 +1,9 @@
+To compile grep 2.2 for use with Chameleon:
+	(1) ./configure
+	(2) cd src
+	(3) make 
+
+To clean
+	(1) cd src
+	(2) make clean
+

@@ -1,0 +1,6 @@
+To compile gawk-3.0.3 for use with Chameleon:
+	(1) ./configure 
+	(2) make 
+
+To clean
+	(1) make clean 

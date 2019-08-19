@@ -1,0 +1,6 @@
+{
+	"pgm_name": "kbfiltr",
+	"pgm_dir": "../benchmarks/kbfiltr/",
+	"exec_dir": "./",
+	"exec_cmd": "'./kbfiltr'"
+}

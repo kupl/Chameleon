@@ -1,0 +1,6 @@
+To compile cdaudio for use with Chameleon:
+	(1) ../../bin/crestc cdaudio.c
+
+
+To clean
+	(1) ./clean.sh 

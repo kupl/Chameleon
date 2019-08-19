@@ -1,0 +1,6 @@
+To compile floppy for use with Chameleon:
+	(1) ../../bin/crestc floppy.c
+
+
+To clean
+	(1) ./clean.sh 

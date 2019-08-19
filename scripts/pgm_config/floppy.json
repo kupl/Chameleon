@@ -1,0 +1,6 @@
+{
+	"pgm_name": "floppy",
+	"pgm_dir": "../benchmarks/floppy/",
+	"exec_dir": "./",
+	"exec_cmd": "'./floppy'"
+}

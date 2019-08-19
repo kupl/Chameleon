@@ -1,0 +1,5 @@
+To compile kbfiltr for use with Chameleon:
+	(1) ../../bin/crestc kbfiltr.c
+
+To clean
+	(1) ./clean.sh 

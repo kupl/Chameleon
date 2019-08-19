@@ -1,0 +1,5 @@
+To compile replace for use with Chameleon:
+	(1) ../../bin/crestc replace.c
+
+To clean
+	(1) ./clean.sh 
