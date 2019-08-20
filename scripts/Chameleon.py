@@ -336,6 +336,7 @@ def clean():
     os.chdir(configs['ex_dir'])
     
     dir_name = configs['date']+"__"+load_config['pgm_name']+"__"+stgy
+    bug_dir = dir_name+"/"+"buginputs"
     cp_cmd = " ".join(["mv", configs['date']+"__"+stgy+"*/"+load_config['pgm_name']+"/logs/*.log", dir_name+"/"])
     os.system(cp_cmd)
     bug_cp_cmd = " ".join(["mv", configs['date']+"__"+stgy+"*/"+load_config['pgm_name']+"/*/"+load_config['exec_dir']+"/*buginput*", bug_dir+"/"])
@@ -349,7 +350,6 @@ def clean():
     mv_cmd = " ".join(["mv", "*_weights", "bad*", load_config['pgm_name']+"*", dir_name])
     os.system(mv_cmd)
     
-    bug_dir = dir_name+"/"+"buginputs"
     rm_cmd = " ".join(["rm", bug_dir+"/*run_crest*"])
     os.system(rm_cmd)
 
