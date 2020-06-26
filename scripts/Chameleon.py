@@ -144,12 +144,13 @@ def SELECT(knowledge):
         rf.write("topk("+str(selection_size)+"):"+str(len(intersect_set))+"\n") 
 
     temp_knowledge = deepcopy(knowledge)
-    selection_size = int(ratio * len(temp_knowledge))
    
     botk_hlist = []
     intersect_set = set()
+    if len(temp_knowledge) < selection_size:
+        selection_size=len(temp_knowledge)
+
     for i in range(1, selection_size+1):
-        #sorted_list = sorted(temp_knowledge.items(), key=lambda kv: len(kv[1]), reverse = False)
         sorted_list = sorted(temp_knowledge.items(), key=lambda kv:(0.95*len(kv[1]) + 0.05*len(knowledge[kv[0]])), reverse = False)
         botk_h = sorted_list[0][0]
         botk_hset = sorted_list[0][1]

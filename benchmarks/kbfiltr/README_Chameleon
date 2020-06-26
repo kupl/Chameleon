@@ -1,5 +1,6 @@
 To compile kbfiltr for use with Chameleon:
-	(1) ../../bin/crestc kbfiltr.c
+    (1) ../../bin/crestc kbfiltr.c
+    (2) python ../../bin/calc_dominator.py
 
 To clean
-	(1) ./clean.sh 
+    (1) ./clean.sh 
