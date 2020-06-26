@@ -22,7 +22,7 @@ ParaDySE provides a publicly available implementation of parametric search heuri
 You need to install [Ubuntu 16.04.5(64 bit)][ubuntu] or [Ubuntu 14.04.1(64 bit)][ubuntu14]. 
 We use **gcc-4.8** and **g++-4.8**. Then follow the steps:
 ```sh
-$ sudo apt-get install ocaml #(if not installed) 
+$ sudo apt-get install ocaml python-numpy python-scipy #(if not installed) 
 $ git clone https://github.com/kupl/Chameleon.git
 $ cd Chameleon/cil
 $ ./configure
